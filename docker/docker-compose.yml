@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   openzaak-alfresco-share:
-    image: alfresco-share-openzaak-alfresco:development
+    image: openzaak/alfresco-share:${project.version}
     build:
       dockerfile: ./Dockerfile
       context: ../../../openzaak-alfresco-share-docker/target
@@ -13,7 +13,7 @@ services:
       - "${share.port}:8080"
       - "${share.debug.port}:8888"
   openzaak-alfresco-acs:
-    image: alfresco-content-services-openzaak-alfresco:development
+    image: openzaak/alfresco-content-services:${project.version}
     build:
       dockerfile: ./Dockerfile
       context: ../../../openzaak-alfresco-platform-docker/target
