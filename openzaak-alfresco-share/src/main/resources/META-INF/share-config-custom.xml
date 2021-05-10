@@ -1,5 +1,5 @@
 <alfresco-config>
-    <author>OPEN.satisfaction namens Openzaak</author>
+    <author>OPEN.satisfaction</author>
     <description>Alfresco drc share configuratie (openzaak)</description>
 
     <config evaluator="string-compare" condition="DocumentLibrary">

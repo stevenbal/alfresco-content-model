@@ -24,7 +24,6 @@ IF %1==build_start (
     CALL :down
     CALL :build
     CALL :start
-    CALL :tail
     GOTO END
 )
 IF %1==build_image (
@@ -37,12 +36,10 @@ IF %1==build_start_it_supported (
     CALL :build
     CALL :prepare-test
     CALL :start
-    CALL :tail
     GOTO END
 )
 IF %1==start (
     CALL :start
-    CALL :tail
     GOTO END
 )
 IF %1==stop (
@@ -61,13 +58,11 @@ IF %1==tail (
 IF %1==reload_share (
     CALL :build_share
     CALL :start_share
-    CALL :tail
     GOTO END
 )
 IF %1==reload_acs (
     CALL :build_acs
     CALL :start_acs
-    CALL :tail
     GOTO END
 )
 IF %1==build_test (

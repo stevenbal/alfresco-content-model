@@ -9,7 +9,7 @@
                                             nothing is compiled (i.e. you cannot set it to pom) -->
 
     <parent>
-        <groupId>nl.opensatisfaction</groupId>
+        <groupId>org.openzaak</groupId>
         <artifactId>openzaak-alfresco</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -21,7 +21,7 @@
         <!-- Bring in any custom module that should be tested, by default we bring in the Platform JAR module
              that is generated for the AIO project -->
         <dependency>
-            <groupId>nl.opensatisfaction</groupId>
+            <groupId>org.openzaak</groupId>
             <artifactId>openzaak-alfresco-platform</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>test</scope>

@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>nl.opensatisfaction</groupId>
+        <groupId>org.openzaak</groupId>
         <artifactId>openzaak-alfresco</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

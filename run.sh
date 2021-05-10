@@ -81,18 +81,15 @@ case "$1" in
     down
     build
     start
-    tail
     ;;
   build_start_it_supported)
     down
     build
     prepare_test
     start
-    tail
     ;;
   start)
     start
-    tail
     ;;
   stop)
     down
@@ -107,12 +104,10 @@ case "$1" in
   reload_share)
     build_share
     start_share
-    tail
     ;;
   reload_acs)
     build_acs
     start_acs
-    tail
     ;;
   build_test)
     down
