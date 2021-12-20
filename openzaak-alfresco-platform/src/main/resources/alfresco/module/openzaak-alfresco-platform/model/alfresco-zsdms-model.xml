@@ -168,6 +168,7 @@
                     <title>DRC - Document - Indicatie gebruiksrecht</title>
                     <type>d:text</type>
                     <mandatory>false</mandatory>
+                    <default>false</default>
                     <index enabled="false">
                         <tokenised>true</tokenised>
                     </index>
